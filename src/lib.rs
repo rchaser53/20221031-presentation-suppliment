@@ -1,11 +1,11 @@
-// mod utils;
+mod utils;
 
 use wasm_bindgen::prelude::*;
-// use utils::set_panic_hook;
+use utils::set_panic_hook;
 
 #[wasm_bindgen(start)]
 pub fn main() -> Result<(), JsValue> {
-    // set_panic_hook();
+    set_panic_hook();
     Ok(())
 }
 
