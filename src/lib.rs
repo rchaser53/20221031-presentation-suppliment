@@ -1,8 +1,6 @@
 // mod utils;
 
 use wasm_bindgen::prelude::*;
-// use web_sys::{Node};
-// use wasm_bindgen::prelude::;
 // use utils::set_panic_hook;
 
 #[wasm_bindgen(start)]

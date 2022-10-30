@@ -1,8 +1,6 @@
 mod utils;
 
 use wasm_bindgen::prelude::*;
-// use web_sys::{Node};
-// use wasm_bindgen::prelude::;
 use utils::set_panic_hook;
 
 #[wasm_bindgen(start)]
@@ -19,7 +17,6 @@ pub fn run(n:u64) -> u64 {
         acc += collatz(i as u64);
         acc %= 1000000007;
     }
-    // println!("{}", acc);
     acc
 }
 
