@@ -1,6 +1,7 @@
 // without reference-type
 let wasm;
 
+/* 不要になるところ。はじまり */
 const heap = new Array(32).fill(undefined);
 
 heap.push(undefined, null, true, false);
@@ -29,7 +30,7 @@ function addHeapObject(obj) {
     heap[idx] = obj;
     return idx;
 }
-
+/* 不要になるところ。終わり */
 const cachedTextDecoder = new TextDecoder('utf-8', { ignoreBOM: true, fatal: true });
 
 cachedTextDecoder.decode();
