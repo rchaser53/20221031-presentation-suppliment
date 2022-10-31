@@ -5,5 +5,5 @@ const fibJs = (n) => {
 };
 const calcJs = createCalc(fibJs);
 [30,40].forEach((num) => {
-    calcJs(num, 3, "js");
+    calcJs(num, 30, "js");
 });
